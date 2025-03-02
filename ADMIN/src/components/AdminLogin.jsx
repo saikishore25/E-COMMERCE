@@ -11,7 +11,7 @@ const AdminLogin = () => {
 
 const onSubmit = async (data) => {
     try {
-        const response = await fetch("http://localhost:3000/api/user/admin-login", {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URI}/api/user/admin-login`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(data),

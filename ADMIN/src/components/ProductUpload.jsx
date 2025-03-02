@@ -39,7 +39,7 @@ const ProductUpload = () => {
 
           console.log([...formData])
   
-          const response = await fetch("http://localhost:3000/api/product/add", {
+          const response = await fetch(`${import.meta.env.VITE_BACKEND_URI}/api/product/add`, {
               method: "POST",
               body: formData,
               // headers: {

@@ -11,7 +11,7 @@ const AdminNavBar = () => {
 
 const onLogout = async () => {
     try {
-        const response = await fetch("http://localhost:3000/api/user/admin-logout", {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URI}/api/user/admin-logout`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             credentials: "include",

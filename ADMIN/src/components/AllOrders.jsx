@@ -28,7 +28,7 @@ const AllOrders = () => {
 
   const statusHandler = async (orderID, newStatus) => {
     try {
-      const response = await fetch("http://localhost:3000/api/order/update-status", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URI}/api/order/update-status`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include",
