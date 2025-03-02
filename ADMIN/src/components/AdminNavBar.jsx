@@ -1,7 +1,7 @@
 import React from 'react'
 import logo_png from "../assets/logo.png"
 import { useContext } from 'react'
-import { AdminContext } from '../contexts/adminContext'
+import { AdminContext } from '../contexts/AdminContext.jsx'
 import { useNavigate } from "react-router-dom";  // ✅ Fix: Add navigate
 
 const AdminNavBar = () => {
