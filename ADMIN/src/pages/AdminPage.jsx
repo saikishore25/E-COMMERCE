@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import ProductUpload from '../components/ProductUpload';
 import AdminNavBar from '../components/AdminNavBar';
 import AdminSideBar from '../components/AdminSideBar';
-import { AdminContext } from '../contexts/adminContext';
+import { AdminContext } from '../contexts/AdminContext.jsx';
 import ItemsList from '../components/ItemsList';
 import AllOrders from '../components/AllOrders';
 import AdminLogin from '../components/AdminLogin';

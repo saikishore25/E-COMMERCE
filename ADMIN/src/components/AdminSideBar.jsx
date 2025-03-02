@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import add_icon from "../assets/admin_assets/add_icon.png";
 import order_icon from "../assets/admin_assets/order_icon.png";
-import { AdminContext } from '../contexts/AdminContext';
+import { AdminContext } from '../contexts/AdminContext.jsx';
 
 const AdminSideBar = () => {
     const { activeTab, setActiveTab } = useContext(AdminContext);

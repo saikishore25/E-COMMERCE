@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { AdminContext } from "../contexts/adminContext";
+import { AdminContext } from "../contexts/AdminContext.jsx";
 import { useNavigate } from "react-router-dom";
 
 const AdminLogin = () => {
