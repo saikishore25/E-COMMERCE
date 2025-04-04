@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 const corsOptions = {
 
-    origin: ["http://localhost:5173","http://localhost:5174"], 
+    origin: ["https://e-commerce-seven-lake-85.vercel.app/"], 
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }
