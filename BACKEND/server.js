@@ -22,7 +22,7 @@ const corsOptions = {
         "http://localhost:5173",
         "http://localhost:5174",
         "https://e-commerce-admin-six-henna.vercel.app",
-        "https://e-commerce-seven-lake-85.vercel.app"
+        "https://e-commerce-frontend-theta-eight.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
